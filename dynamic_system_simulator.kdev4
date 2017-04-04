@@ -1,0 +1,4 @@
+[Project]
+Name=dynamic_system_simulator
+Manager=KDevCMakeManager
+VersionControl=kdevgit
