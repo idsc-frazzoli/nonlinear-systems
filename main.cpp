@@ -26,6 +26,7 @@ int main(){
   double knot0=0.0;//u(0)=0.0
   double knot1=1.0;//u(5.0)=1.0
   double knot2=2.0;//u(10.0)=2.0
+  //Calculate polynomial coefficients to collocate the individual polynomials in spline
   std::valarray<double> coeff000({knot0});
   std::valarray<double> coeff010({(knot1-knot0)/signal_collocation_interval});
   std::valarray<double> coeff100({knot1});
