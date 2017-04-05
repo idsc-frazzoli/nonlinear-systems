@@ -1,0 +1,3 @@
+
+add_subdirectory(spline)
+add_subdirectory(numerical_integration)
